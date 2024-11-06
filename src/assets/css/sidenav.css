@@ -1,0 +1,61 @@
+.sidenav_logo img {
+    width: 50px;
+    padding: 10px;
+}
+
+.sidenav_list li {
+    color: #fff;
+    cursor: pointer;
+}
+
+.sidenav_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    gap: 25px;
+    margin-top: 14px !important;
+}
+.custom-popover .ant-popover-inner {
+    background-color: #032B59; 
+    width: 200px; 
+  }
+  
+  .custom-popover .ant-popover-arrow:after {
+    background-color: #032B59; 
+  }
+  .custom-popover .ant-popover-inner .dashboard_link{
+   color: #fff;
+   font-size: 16px;
+  }
+  .custom-popover .ant-popover-inner .dashboard_link a, .custom-popover .ant-popover-inner .dashboard_link a:hover{
+    text-decoration: unset;
+    color: #fff;
+  }
+  .custom-popover {
+    left: 54px !important;
+  }
+  .dashboard_link ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding: 2px 10px !important;
+
+  }
+  .sidenav_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding-bottom: 24px;
+  }
+  .user_log{
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(180deg, #146ced 0%, #0085ff 100%);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

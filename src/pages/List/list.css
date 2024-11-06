@@ -1,0 +1,37 @@
+.account_holder{
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    background: #783cce;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.account_holder-name{
+    text-decoration: unset;
+    color: #161616;
+}
+.table_search{
+    width: 230px;
+    /* float: right; */
+}
+.custom-table .ant-table-thead > tr > th {
+    background-color: #EDEEF0; 
+    color: #161616; 
+    padding: 6px 16px;
+  }
+  .social_media{
+
+  }
+  .social_media ul{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    align-items: center;
+  }
+  .social_media ul li img{
+    width: 34px;
+    height: 20px;
+    object-fit: contain;
+  }
